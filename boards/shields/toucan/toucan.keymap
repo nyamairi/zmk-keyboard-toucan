@@ -105,9 +105,9 @@
         mouse {
             display-name = "MOUS";
             bindings = <
-                &kp ESC  &trans  &trans  &trans  &trans  &trans   &trans    &kp LC(UP)  &trans  &trans  &trans  &kp INT1
-                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB1  &mkp MB2    &trans  &trans  &trans  &trans
-                &trans   &trans  &trans  &trans  &trans  &trans   &trans    &mkp MB3    &trans  &trans  &trans  &trans
+                &kp ESC  &trans  &trans  &trans  &trans  &trans   &kp LC(UP)  @trans  &trans  &trans  &trans  &kp INT1
+                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &trans
+                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB3    &trans  &trans  &trans  &trans  &trans
                                          &trans  &trans  &trans   &mo 6     &trans  &trans
             >;
         };
@@ -115,9 +115,9 @@
         scroll {
             display-name = "SCRL";
             bindings = <
-                &kp ESC  &trans  &trans  &trans  &trans  &trans   &trans    &kp LC(UP)  &trans  &trans  &trans  &kp INT1
-                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB1  &mkp MB2    &trans  &trans  &trans  &trans
-                &trans   &trans  &trans  &trans  &trans  &trans   &trans    &mkp MB3    &trans  &trans  &trans  &trans
+                &kp ESC  &trans  &trans  &trans  &trans  &trans   &kp LC(UP)  &trans  &trans  &trans  &trans  &kp INT1
+                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &trans
+                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB3    &trans  &trans  &trans  &trans  &trans
                                          &trans  &trans  &trans   &trans  &trans  &trans
             >;
         };
