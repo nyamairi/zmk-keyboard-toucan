@@ -12,14 +12,6 @@
 #define MOUS 5
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
     behaviors {
         jpseco: jp_semicolon {
             compatible  = "zmk,behavior-mod-morph";
