@@ -27,7 +27,7 @@
 
         jpmins: jp_minus {
             compatible  = "zmk,behavior-mod-morph";
-            #binding-cells = <1>;
+            #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp EQUAL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
