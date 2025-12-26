@@ -76,7 +76,7 @@
             display-name = "SYM";
             bindings = <
                 &kp ESC  &kp EXCL  &kp DQT  &kp HASH  &kp DLLR  &kp PRCNT   &trans  &trans    &kp UP    &trans     &trans  &kp DEL
-                &trans   &kp AMPS  &kp SQT  &kp LPAR  &kp RPAR  &jpcart     &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp INT1
+                &trans   &kp AMPS  &kp SQT  &kp LPAR  &kp RPAR  &jpcart     &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp UNDER
                 &trans   &jpatsn   &jpcoln  &kp LBKT  &kp RBKT  &kp INT3    &trans  &trans    &trans    &trans     &trans  &trans
                                                    &trans  &trans  &trans   &trans  &trans  &trans
             >;
@@ -86,7 +86,7 @@
             display-name = "NUM";
             bindings = <
                 &kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5   &trans  &trans    &kp UP    &trans     &trans  &kp DEL
-                &trans   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp INT1
+                &trans   &kp N6  &kp N7  &kp N8  &kp N9  &kp N0   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp UNDER
                 &trans   &trans  &trans  &trans  &trans  &trans   &trans  &trans    &trans    &trans     &trans  &trans
                                          &trans  &trans  &trans   &trans  &trans  &trans
             >;
@@ -96,7 +96,7 @@
             display-name = "FUN";
             bindings = <
                 &kp ESC  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5    &trans  &trans    &kp UP    &trans     &trans  &kp DEL
-                &trans   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp INT1
+                &trans   &kp F6   &kp F7   &kp F8   &kp F9   &kp F10   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp UNDER
                 &trans   &kp F11  &kp F12  &kp F13  &kp F14  &kp F15   &trans  &trans    &trans    &trans     &trans  &trans
                                               &trans  &trans  &trans   &trans  &trans  &trans
             >;
@@ -106,7 +106,7 @@
             display-name = "MOUS";
             bindings = <
                 &kp ESC  &trans  &trans  &trans  &trans  &trans   &kp LC(UP)  &trans  &trans  &trans  &trans  &kp DEL
-                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &kp INT1
+                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &kp UNDER
                 &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB3    &trans  &trans  &trans  &trans  &trans
                                          &trans  &trans  &trans   &mo 6     &trans  &trans
             >;
@@ -116,7 +116,7 @@
             display-name = "SCRL";
             bindings = <
                 &kp ESC  &trans  &trans  &trans  &trans  &trans   &kp LC(UP)  &trans  &trans  &trans  &trans  &kp DEL
-                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &kp INT1
+                &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &kp UNDER
                 &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB3    &trans  &trans  &trans  &trans  &trans
                                          &trans  &trans  &trans   &trans  &trans  &trans
             >;
