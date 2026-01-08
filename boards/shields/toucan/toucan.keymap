@@ -108,7 +108,7 @@
                 &kp ESC  &trans  &trans  &trans  &trans  &trans   &kp LC(UP)  &trans  &trans  &trans  &trans  &kp DEL
                 &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &kp UNDER
                 &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB3    &trans  &mo 6  &trans  &trans  &trans
-                                         &trans  &trans  &trans   &trans  &trans  &trans
+                                         &trans  &trans  &trans   &mkp MB1  &trans  &trans
             >;
         };
 
@@ -118,7 +118,7 @@
                 &kp ESC  &trans  &trans  &trans  &trans  &trans   &kp LC(UP)  &trans  &trans  &trans  &trans  &kp DEL
                 &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB2    &trans  &trans  &trans  &trans  &kp UNDER
                 &trans   &trans  &trans  &trans  &trans  &trans   &mkp MB3    &trans  &trans  &trans  &trans  &trans
-                                         &trans  &trans  &trans   &trans  &trans  &trans
+                                         &trans  &trans  &trans   &mkp MB1  &trans  &trans
             >;
         };
     };
